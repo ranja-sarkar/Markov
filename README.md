@@ -24,6 +24,8 @@ https://colab.research.google.com/drive/1JZWLvPArxUYz215idmgWylvmuf42b4lF
 
 **Gibbs:**
 
+Given a multivariate (two or more) distribution, it is simpler to sample from a conditional distribution than from a joint distribution.
+
 <img width="347" alt="g1" src="https://github.com/user-attachments/assets/1a28c36f-a58b-4ba1-a3cd-af611bfca32e">
 <img width="322" alt="g2" src="https://github.com/user-attachments/assets/9e593afd-ec97-4cd0-9bf1-66d4b885696b">
 
