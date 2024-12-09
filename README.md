@@ -9,3 +9,12 @@
 
 Buy from Amazon: https://a.co/d/1zUEkNQ
 
+Gibbs sampling is a special case of the Metropolis-Hastings algorithm, the former algorithm relies on conditional distributions and the latter uses a joint density distribution to generate samples.
+
+**Metropolis-Hastings:**
+
+<img width="276" alt="MH1" src="https://github.com/user-attachments/assets/744fcf54-3cd2-408f-9cb9-224b822f179a">
+
+<img width="276" alt="MH2" src="https://github.com/user-attachments/assets/43b5d6c8-e89c-42b8-8314-115693133e5e">
+
+
