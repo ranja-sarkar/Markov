@@ -13,6 +13,10 @@ Gibbs sampling is a special case of the Metropolis-Hastings algorithm, the forme
 
 **Metropolis-Hastings:**
 
+https://colab.research.google.com/drive/1JZWLvPArxUYz215idmgWylvmuf42b4lF
+
+
+
 <img width="276" alt="MH1" src="https://github.com/user-attachments/assets/744fcf54-3cd2-408f-9cb9-224b822f179a">
 
 <img width="276" alt="MH2" src="https://github.com/user-attachments/assets/43b5d6c8-e89c-42b8-8314-115693133e5e">
