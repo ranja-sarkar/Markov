@@ -1,2 +1,0 @@
-model_name,margin,window,anomalies,flips,anomalies_ratio,flips_ratio,total
-svm_nu0.01_krnrbf_gam0.01,4,1,5394,104,0.24485904943483588,0.004721049525625312,22029
