@@ -5,7 +5,7 @@
 
  **“The future depends only upon the present, not upon the past."**
 
-**M**arkov **C**hain **M**onte **C**arlo is a random sampling method used to sample from a target population/distribution defined by high dimensions, and there're several MCMC algorithms. Following two have been explained in the book.   
+**M**arkov **C**hain **M**onte **C**arlo is a random sampling method used to sample from a target population/distribution defined by high dimensions, and there're a few MCMC algorithms. Following two of them have been explained in the book.   
 
 <img width="174" alt="22" src="https://github.com/user-attachments/assets/ac96a335-b68f-411e-bb73-85ba84ed70aa">
 
