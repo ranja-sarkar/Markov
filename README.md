@@ -32,4 +32,6 @@ Given a multivariate (two or more) distribution, it is simpler to sample from a 
 <img width="322" alt="g2" src="https://github.com/user-attachments/assets/9e593afd-ec97-4cd0-9bf1-66d4b885696b">
 
 
+**More about Markov chains:** https://github.com/Smeths/Markov_Chains/blob/master/Markov%20Notes.ipynb/
+
 
