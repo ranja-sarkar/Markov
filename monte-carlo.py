@@ -2,7 +2,8 @@
 from numpy.random import normal
 import matplotlib.pyplot as plt
 
-# define the distribution
+#Define the distribution
+#We'll use a Gaussian distribution with mean=50 and SD=5 and draw random samples from this distribution
 mu = 50
 sigma = 5
 
