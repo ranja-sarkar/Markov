@@ -49,4 +49,9 @@ A desired quantity can be approximated by random sampling of a probability distr
 
 <img width="174" alt="22" src="https://github.com/user-attachments/assets/ac96a335-b68f-411e-bb73-85ba84ed70aa">
 
+Let us suppose we don’t know the form of the probability distribution for a random variable and we want to sample the function (defines the probability distribution of the random variable) to get an idea of the probability density. We can draw a sample of a given size and plot a histogram to estimate the density. As the size of the sample is increased, the probability density better approximates the true density of the target function, given the law of large numbers. 
 
+<img width="359" alt="33" src="https://github.com/user-attachments/assets/f71d8b43-7d5c-445c-8757-83e61fed62ac" />
+
+
+This highlights the need to draw many samples, even for a simple random variable. We clearly see how the largest size here resembles a Gaussian (bell-shaped) distribution.
