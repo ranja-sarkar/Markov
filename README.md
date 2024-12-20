@@ -1,11 +1,19 @@
 
-A deterministic model is specified by a set of equations that describe how the system will evolve over time. The evolution is at least partially random in a stochastic model, and the model will not give identical results if the process is run several times. Different runs of a stochastic model are often called realisations of the process.
+A **deterministic model** is specified by a set of equations that describe how the system will evolve over time. The evolution is at least partially random in a **stochastic model**, and the model will not give identical results if the process is run several times. Different runs of a stochastic model are often called realisations of the process.
 
-The distinction between deterministic and stochastic models is also blurred slightly by chaotic models. A chaotic model is a deterministic model which is extremely sensitive to the values of some of the parameters in the model. Making a very small change to the values of these parameters can make the outcome of the model completely different. Some people have argued that a system normally regarded as a stochastic process is better regarded as chaotic deterministic system, as exemplified by the quote:-
+The distinction between deterministic and stochastic models is also blurred slightly by chaotic models. A chaotic model is a deterministic model which is extremely sensitive to the values of some parameters in the model. Making a very small change to the values of these parameters can make the outcome of the model completely different. Some people have argued that a system normally regarded as a stochastic process be better regarded as chaotic deterministic system, as exemplified by the quote:-
 
 *A mountain stream, a beating heart, a smallpox epidemic, and a column of rising smoke are all examples of dynamic phenomena that sometimes seem to behave randomly. In reality, such processes exhibit a special order. This special order is ’deterministic chaos’ or chaos in short.*
 
+Examples of **stochastic processes** -
 
+1. Random walk
+
+2. Markov chain
+
+3. Weiner process or Brownian motion
+
+   
 **Chapter 8** of my book discusses **Markov chain**. It is a mathematical system describing a sequence of events in which the probability of each event depends only on the previous event.
 
  **“The future depends only upon the present, not upon the past."**
