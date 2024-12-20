@@ -1,7 +1,7 @@
 
 A **deterministic model** is specified by a set of equations that describe how the system will evolve over time. The evolution is at least partially random in a **stochastic model**, and the model will not give identical results if the process is run several times. Different runs of a stochastic model are often called realisations of the process.
 
-The distinction between deterministic and stochastic models is also blurred slightly by chaotic models. A chaotic model is a deterministic model which is extremely sensitive to the values of some parameters in the model. Making a very small change to the values of these parameters can make the outcome of the model completely different. Some people have argued that a system normally regarded as a stochastic process be better regarded as chaotic deterministic system, as exemplified by the quote:-
+The distinction between deterministic and stochastic models is also blurred slightly by chaotic models. **A chaotic model is a deterministic model which is extremely sensitive to the values of some parameters in the model. Making a very small change to the values of these parameters can make the outcome of the model completely different**. Some people have argued that a system normally regarded as a stochastic process be better regarded as chaotic deterministic system, as exemplified by the quote:-
 
 *A mountain stream, a beating heart, a smallpox epidemic, and a column of rising smoke are all examples of dynamic phenomena that sometimes seem to behave randomly. In reality, such processes exhibit a special order. This special order is ’deterministic chaos’ or chaos in short.*
 
