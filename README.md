@@ -7,12 +7,13 @@ The distinction between deterministic and stochastic models is also blurred slig
 
 Examples of **stochastic processes** -
 
-1. Random walk -> It's a discrete time stochastic process. A collection of random variables (iid - indepenednt & identically distributed) such that y_i = ±1 with equal probability make up an 1D simple random walk. 
+1. Random walk -> It's a discrete time stochastic process. A collection of random variables (iid - indepenednt & identically distributed) such that y_i = ±1 with equal probability make up an 1D simple random walk. Refer: https://github.com/ranja-sarkar/Markov/blob/main/references/BM.ipynb 
 
 2. Markov chain -> It's a stochastic process such that y_(i+1) depends only on y_i and not on the whole set of values y_0, y_1, y_2, ....., y_i which means the effect of the past on the future is summarized only by the present or current state rather than the whole sequence of states or history. 
 
-3. Weiner process or Brownian motion -> It's a continuous time stochastic process. 
-
+3. Weiner process or Brownian motion -> It's a continuous time stochastic process.
+   Refer: https://github.com/ranja-sarkar/Markov/blob/main/references/BM.ipynb
+   
    
 **Chapter 8** of my book discusses **Markov chain**. It is a mathematical system describing a sequence of events in which the probability of each event depends only on the previous event.
 
