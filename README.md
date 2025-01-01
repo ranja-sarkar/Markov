@@ -70,4 +70,7 @@ Let us suppose we don’t know the form of the probability distribution for a ra
 <img width="359" alt="33" src="https://github.com/user-attachments/assets/f71d8b43-7d5c-445c-8757-83e61fed62ac" />
 
 
-This highlights the need to draw many samples, even for a simple random variable. We clearly see how the largest size here resembles a Gaussian (bell-shaped) distribution.
+This highlights the need to draw many samples, even for a simple random variable. We clearly see how the largest size here resembles a Gaussian (bell-shaped) distribution. 
+
+**Lectures on Computational Statistics from Duke University:** https://people.duke.edu/~ccc14/sta-663-2018/
+
