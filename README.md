@@ -59,6 +59,8 @@ A desired quantity can be approximated by random sampling of a probability distr
 
 *The bootstrap is a simple Monte Carlo technique to approximate the sampling distribution and is particularly useful in cases where the estimator is a complex function of the true parameters.*
 
+**MCMC with scipy:** https://people.duke.edu/~ccc14/sta-663/MCMC.html
+
 **Simulated annealing** is another example of MC sampling. Find a little more about it from **Chapter 10** of my book. 
 
 <img width="174" alt="22" src="https://github.com/user-attachments/assets/ac96a335-b68f-411e-bb73-85ba84ed70aa">
