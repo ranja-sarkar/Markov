@@ -35,8 +35,11 @@ Buy from Amazon: https://a.co/d/1zUEkNQ
 
 **Metropolis-Hastings:**
 
-https://colab.research.google.com/drive/1JZWLvPArxUYz215idmgWylvmuf42b4lF
+This algorithm involves using a surrogate (kernel) or proposal probability distribution that is sampled, then an acceptance criterion that decides whether the new sample is accepted into the chain or discarded. The proposal suggests an arbitrary next step in the chain trajectory and the acceptance ensures appropriate limiting direc­tion is maintained by rejecting unwanted moves in the chain. The acceptance criterion is probabilistic based on how likely the proposal distribution differs from the true next-state probability distribution.
 
+For example, if the next-step conditional probability distribution is used as the proposal distribution, Metropolis-Hastings is equivalent to the Gibbs Sampling algorithm. If a symmetric proposal distribution is used like a Gaussian, the algorithm is equivalent to another MCMC called the Metropolis algorithm.
+
+https://colab.research.google.com/drive/1JZWLvPArxUYz215idmgWylvmuf42b4lF
 
 
 <img width="276" alt="MH1" src="https://github.com/user-attachments/assets/744fcf54-3cd2-408f-9cb9-224b822f179a">
@@ -46,7 +49,8 @@ https://colab.research.google.com/drive/1JZWLvPArxUYz215idmgWylvmuf42b4lF
 
 **Gibbs:**
 
-Given a multivariate (two or more) distribution, it is simpler to sample from a conditional distribution than from a joint distribution.
+Given a multivariate (two or more) distribution and calculated conditional probability, it is simpler to sample from a conditional distribution than from a joint distribution. The idea behind Gibbs sampling is that we sample each variable in turn, conditioned on the values of all the other variables in the distribution. Gibbs Sampling is appropriate for discrete (rather than continuous) distribution.
+
 
 <img width="347" alt="g1" src="https://github.com/user-attachments/assets/1a28c36f-a58b-4ba1-a3cd-af611bfca32e">
 <img width="322" alt="g2" src="https://github.com/user-attachments/assets/9e593afd-ec97-4cd0-9bf1-66d4b885696b">
