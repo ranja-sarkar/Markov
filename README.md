@@ -19,7 +19,9 @@ Examples of **stochastic processes** -
 
  **“The future depends only upon the present, not upon the past."**
 
-**M**arkov **C**hain **M**onte **C**arlo is a random sampling method used to sample from a target population/distribution defined by high dimensions, and there're a few MCMC algorithms. Following two of them have been explained in the book.   
+**M**arkov **C**hain **M**onte **C**arlo is a random sampling method used to sample from a target population/distribution defined by high dimensions, and there're quite a few MCMC algorithms. For most probabilistic models of practical interest, exact inference is intractable, so we have to resort to some form of approximation (expected value or density). The desired calculation is typically a sum of a discrete distribution of many random variables or integral of a continuous distribution of many variables. 
+
+Following two have been explained in the book.   
 
 <img width="174" alt="22" src="https://github.com/user-attachments/assets/ac96a335-b68f-411e-bb73-85ba84ed70aa">
 
@@ -51,13 +53,16 @@ Given a multivariate (two or more) distribution, it is simpler to sample from a 
 
 **Note on Monte-Carlo Sampling**
 
-Monte-Carlo sampling provides the foundation for many ML algorithms such as resampling, hyperparameter tuning, and ensemble learning. 
+Monte-Carlo sampling provides the foundation for many ML algorithms such as resampling, hyperparameter tuning, and ensemble learning. Unlike Monte Carlo sampling methods (drawing independent samples from probability distribution and repeat the process many times to approximate desired quantity), MCMC methods draw a sample which is dependent on the existing sample.
 
 A desired quantity can be approximated by random sampling of a probability distribution - MC sampling is one method for this. A quantity may be intractable for many reasons, such as the stochastic nature of the domain, noise in the observations, the lack of observations, and more. 
 
 *Drawing a sample may be as simple as calculating the probability for a randomly selected event, or may be as complex as running a computational simulation, the latter often referred to as a Monte Carlo simulation.*
 
 *The bootstrap is a simple Monte Carlo technique to approximate the sampling distribution and is particularly useful in cases where the estimator is a complex function of the true parameters.*
+
+Monte Carlo sampling is not effective and may be intractable for high-dimensional probabilistic models, MCMC provides an alternate approach. 
+
 
 **MCMC with scipy:** https://people.duke.edu/~ccc14/sta-663/MCMC.html
 
