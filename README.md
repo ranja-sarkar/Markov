@@ -21,9 +21,11 @@ Examples of **stochastic processes** -
 
  **“The future depends only upon the present, not upon the past."**
 
-**M**arkov **C**hain **M**onte **C**arlo is a random sampling method used to sample from a target population/distribution defined by high dimensions, and there're quite a few MCMC algorithms. For most probabilistic models of practical interest, exact inference is intractable, so we have to resort to some form of approximation (expected value or density). The desired calculation is typically a sum of a discrete distribution of many random variables or integral of a continuous distribution of many variables. 
+**M**arkov **C**hain **M**onte **C**arlo is a random sampling method used to sample from a target population/distribution defined in high dimensions by constructing a Markov Chain, where the next sample drawn from the probability distribution is dependent upon the just the previous sample drawn. The idea is that the chain will settle on (or find equilibrium) on the desired quantity we're inferring. 
 
-Following two have been explained in the book.   
+For most probabilistic models of practical interest, exact inference is intractable, so we have to resort to some form of approximation (expected value or density). The desired calculation is typically a sum of a discrete distribution of many random variables or integral of a continuous distribution of many variables. 
+
+There're quite a few MCMC algorithms. Following two have been explained in the book.   
 
 <img width="174" alt="22" src="https://github.com/user-attachments/assets/ac96a335-b68f-411e-bb73-85ba84ed70aa">
 
@@ -49,6 +51,8 @@ Given a multivariate (two or more) distribution, it is simpler to sample from a 
 <img width="347" alt="g1" src="https://github.com/user-attachments/assets/1a28c36f-a58b-4ba1-a3cd-af611bfca32e">
 <img width="322" alt="g2" src="https://github.com/user-attachments/assets/9e593afd-ec97-4cd0-9bf1-66d4b885696b">
 
+
+MCMC algorithms are sensitive to starting points, and often require a warm-up phase (burn-in) to move in towards a fruitful part of the search space, after which prior samples can be discarded and useful samples collected.
 
 **More about Markov chains:** https://github.com/Smeths/Markov_Chains/blob/master/Markov%20Notes.ipynb/
 
