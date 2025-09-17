@@ -25,8 +25,6 @@ Examples of **stochastic processes** -
 
 For most probabilistic models of practical interest, exact inference is intractable, so we have to resort to some form of approximation (expected value or density). The desired calculation is typically a sum of a discrete distribution of many random variables or integral of a continuous distribution of many variables. 
 
-There're quite a few MCMC algorithms. Following two have been explained in the book.   
-
 <img width="174" alt="22" src="https://github.com/user-attachments/assets/ac96a335-b68f-411e-bb73-85ba84ed70aa">
 
 Buy from Amazon: https://a.co/d/1zUEkNQ
